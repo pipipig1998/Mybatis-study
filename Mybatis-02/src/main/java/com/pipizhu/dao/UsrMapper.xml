@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间，和我们的接口绑定-->
+<mapper namespace="com.pipizhu.dao.UsrMapper">
+<!--    <select id="getUsrList" resultType="com.pipizhu.pojo.Usr">-->
+<!--        select * from usr-->
+<!--    </select>-->
+    <select id="getUsrById" parameterType="int" resultType="com.pipizhu.pojo.Usr">
+        select * from usr where id=#{id}
+    </select>
+
+    <insert id="addUsr" parameterType="com.pipizhu.pojo.Usr">
+        insert into usr(id,name,pwd)
+        values (#{id},#{name},#{pwd})
+    </insert>
+    
+    <update id="updateUsr" parameterType="com.pipizhu.pojo.Usr">
+        update mybatis.usr set name =#{name},pwd=#{pwd} where id=#{id};
+    </update>
+
+    <delete id="deleteUsr" parameterType="int">
+        delete from Usr where id=#{id}
+    </delete>
+
+<!--    <insert id="addUsr2" parameterType="map">-->
+<!--        insert into mybatis.usr(id,name,pwd)-->
+<!--        values(#{userid},#{username},#{password})-->
+<!--    </insert>-->
+<!--    -->
+<!--    <select id="getUsrLike" resultType="com.pipizhu.pojo.Usr">-->
+<!--        select * from mybatis.usr where name like #{value};-->
+<!--    </select>-->
+</mapper>

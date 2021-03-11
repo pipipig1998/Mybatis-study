@@ -11,6 +11,13 @@
     <modules>
         <module>Mybatis-01</module>
         <module>Mybatis-02</module>
+        <module>Mybatis-03</module>
+        <module>Mybatis-04</module>
+        <module>Mybatis-05</module>
+        <module>Mybatis-06</module>
+        <module>Mybatis-07</module>
+        <module>Mybatis-07</module>
+        <module>Mybatis-07</module>
     </modules>
 
     <dependencies>
@@ -29,6 +36,12 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.18</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>

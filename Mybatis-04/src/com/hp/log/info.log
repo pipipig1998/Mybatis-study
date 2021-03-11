@@ -1,0 +1,4 @@
+2021-03-11 14:33:25 下午 [Thread: main][ Class:com.pipizhu.dao.UsrMapperTest >> Method: com.pipizhu.dao.UsrMapperTest.testLog4j(UsrMapperTest.java:18) ]
+INFO:info:进入了log4j方法
+2021-03-11 14:33:25 下午 [Thread: main][ Class:com.pipizhu.dao.UsrMapperTest >> Method: com.pipizhu.dao.UsrMapperTest.testLog4j(UsrMapperTest.java:20) ]
+ERROR:error:进入error模式

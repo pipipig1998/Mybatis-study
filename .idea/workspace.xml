@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="418abe66-8d56-482d-8567-13f56c79498f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/main/java/com/pipizhu/Utils/IDutils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/main/java/com/pipizhu/Utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/main/java/com/pipizhu/dao/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/main/java/com/pipizhu/dao/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/main/java/com/pipizhu/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/main/resources/mybatisconfiguration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/test/java/com/pipizhu/Utils/IDutilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-08/src/test/java/com/pipizhu/dao/BlogMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mybatis-07/src/main/java/com/pipizhu/pojo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mybatis-08/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,8 +100,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-03\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-08\src\main\resources" />
+      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-07\src\main\java\com\pipizhu\pojo" />
+      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-07\src\main\java\com\pipizhu\dao" />
+      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-07\src\main\resources" />
+      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-06\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pipizhu.Utils" />
@@ -98,27 +114,13 @@
       <recent name="com.pipizhu.pojo" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-07\src\main\java\com\pipizhu\pojo" />
-      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-07\src\main\java\com\pipizhu\dao" />
-      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-07\src\main\resources" />
-      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-06\src\main\resources" />
-      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-05\src\main\java\com\pipizhu" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaPrograms\Mybatis-Study\Mybatis-03\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test">
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-07" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentMapperTest.getStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-06" />
+  <component name="RunManager" selected="JUnit.BlogMapperTest.updateBlog">
+    <configuration name="BlogMapperTest.addBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-08" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pipizhu.dao.*" />
@@ -126,15 +128,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pipizhu.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.StudentMapperTest" />
-      <option name="METHOD_NAME" value="getStudent" />
+      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.BlogMapperTest" />
+      <option name="METHOD_NAME" value="addBlog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherMapperTest.getTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-06" />
+    <configuration name="BlogMapperTest.chooseBlogChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-08" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pipizhu.dao.*" />
@@ -142,15 +144,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pipizhu.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.TeacherMapperTest" />
-      <option name="METHOD_NAME" value="getTeacher" />
+      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.BlogMapperTest" />
+      <option name="METHOD_NAME" value="chooseBlogChoose" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsrMapperTest.addUsr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-05" />
+    <configuration name="BlogMapperTest.queryBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-08" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pipizhu.dao.*" />
@@ -158,15 +160,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pipizhu.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.UsrMapperTest" />
-      <option name="METHOD_NAME" value="addUsr" />
+      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.BlogMapperTest" />
+      <option name="METHOD_NAME" value="queryBlog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsrMapperTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis-05" />
+    <configuration name="BlogMapperTest.updateBlog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-08" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pipizhu.dao.*" />
@@ -174,8 +176,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pipizhu.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.UsrMapperTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="com.pipizhu.dao.BlogMapperTest" />
+      <option name="METHOD_NAME" value="updateBlog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IDutilsTest.getID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pipizhu.Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pipizhu.Utils" />
+      <option name="MAIN_CLASS_NAME" value="com.pipizhu.Utils.IDutilsTest" />
+      <option name="METHOD_NAME" value="getID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.test" />
-        <item itemvalue="JUnit.StudentMapperTest.getStudent" />
-        <item itemvalue="JUnit.TeacherMapperTest.getTeacher" />
-        <item itemvalue="JUnit.UsrMapperTest.delete" />
-        <item itemvalue="JUnit.UsrMapperTest.addUsr" />
+        <item itemvalue="JUnit.BlogMapperTest.updateBlog" />
+        <item itemvalue="JUnit.BlogMapperTest.chooseBlogChoose" />
+        <item itemvalue="JUnit.BlogMapperTest.queryBlog" />
+        <item itemvalue="JUnit.BlogMapperTest.addBlog" />
+        <item itemvalue="JUnit.IDutilsTest.getID" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +214,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@41fb4b4c" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -217,6 +245,7 @@
       <workItem from="1615365347822" duration="9157000" />
       <workItem from="1615441403694" duration="7495000" />
       <workItem from="1615449135236" duration="8447000" />
+      <workItem from="1615545835700" duration="4479000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2021/3/11&quot;">
       <created>1615459074751</created>
@@ -249,34 +278,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1615366435404" />
-    <state x="424" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615385276524">
+    <state x="424" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615560325127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1615385276524" />
+    <state x="424" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1615560325127" />
     <state x="511" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615365756435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1615365756435" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615561022719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1615561022719" />
     <state x="366" y="6" key="CommitChangelistDialog2" timestamp="1615459069865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="366" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615459069865" />
-    <state width="1493" height="322" key="GridCell.Tab.0.bottom" timestamp="1615459125814">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1615563668086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615459125814" />
-    <state width="1493" height="322" key="GridCell.Tab.0.center" timestamp="1615459125813">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615563668086" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1615563668086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615459125813" />
-    <state width="1493" height="322" key="GridCell.Tab.0.left" timestamp="1615459125813">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615563668086" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1615563668086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615459125813" />
-    <state width="1493" height="322" key="GridCell.Tab.0.right" timestamp="1615459125814">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615563668086" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1615563668086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="322" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615459125814" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615563668086" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1615563637898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615563637898" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1615563637898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1615563637898" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1615563637897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1615563637897" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1615563637898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1615563637898" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1615279750188">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -297,22 +346,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1615443082307" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1615449180872">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1615559166780">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1615449180872" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1615559166780" />
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615457091698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1615457091698" />
-    <state x="178" y="107" key="new project wizard" timestamp="1615456547766">
+    <state x="452" y="203" key="git4idea.merge.GitPullDialog" timestamp="1615563797269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1615456547766" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1615445541018">
+    <state x="452" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1615563797269" />
+    <state x="178" y="107" key="new project wizard" timestamp="1615559753223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1615445541018" />
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1615559753223" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1615559799608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1615559799608" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615379422249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

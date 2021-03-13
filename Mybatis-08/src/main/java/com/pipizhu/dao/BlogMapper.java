@@ -10,4 +10,5 @@ import java.util.Map;
         List<Blog> queryBlogIF(Map map);
         List<Blog>chooseBlogChoose(Map map);
         int updateBlog(Map map);
+        List<Blog> queryBlogByForeach(Map map);
     }

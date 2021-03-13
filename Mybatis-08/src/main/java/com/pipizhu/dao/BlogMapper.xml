@@ -3,7 +3,14 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.pipizhu.dao.BlogMapper">
-
+    <sql id="if-title-author">
+        <if test="title!=null">
+            title=#{title},
+        </if>
+        <if test="author!=null">
+            author=#{author}
+        </if>
+    </sql>
 
     <insert id="addBlog" parameterType="com.pipizhu.pojo.Blog">
         insert into blog(id,title,author,create_time,view)
@@ -45,14 +52,17 @@
     <update id="updateBlog" parameterType="map" >
         update blog
         <set>
-            <if test="title!=null">
-                title=#{title},
-            </if>
-            <if test="author!=null">
-                author=#{author}
-            </if>
+            <include refid="if-title-author"></include>
         </set>
         where id=#{id}
     </update>
 
+    <select id="queryBlogByForeach" parameterType="map" resultType="com.pipizhu.pojo.Blog">
+        select * from blog
+        <where>
+            <foreach collection="ids" item="id" open="(" close=")" separator=" or ">
+                id=#{id}
+            </foreach>
+        </where>
+    </select>
 </mapper>

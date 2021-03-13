@@ -6,10 +6,7 @@ import com.pipizhu.pojo.Blog;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class BlogMapperTest {
     @Test
@@ -74,6 +71,18 @@ public class BlogMapperTest {
         map.put("author","小皮皮猪");
         blogMapper.updateBlog(map);
 
+        sqlSession.close();
+    }
+    @Test
+    public void queryBlogByForeach(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
+        HashMap map = new HashMap();
+        ArrayList<Integer> ids = new ArrayList<Integer>();
+        ids.add(1);
+        ids.add(2);
+        map.put("ids",ids);
+        blogMapper.queryBlogByForeach(map);
         sqlSession.close();
     }
 }
